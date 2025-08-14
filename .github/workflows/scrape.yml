@@ -2,11 +2,10 @@ name: Update Gas Prices
 
 on:
   schedule:
-    # Run every 30 minutes from 6 AM to 10 PM EST
-    - cron: '*/30 11-3 * * *'  # UTC time (EST+5)
-  workflow_dispatch:  # Allows manual trigger
+    - cron: '*/30 11-3 * * *'
+  workflow_dispatch:
   push:
-    branches: [ main ]  # Run when code is pushed
+    branches: [ main ]
 
 jobs:
   update-prices:
