@@ -2,7 +2,7 @@ name: Update Gas Prices
 
 on:
   schedule:
-    - cron: '*/30 11-3 * * *'
+    - cron: '*/30 * * * *'
   workflow_dispatch:
   push:
     branches: [ main ]
