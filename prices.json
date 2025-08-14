@@ -1,0 +1,33 @@
+{
+  "stations": [
+    {
+      "id": "exxon",
+      "name": "Exxon",
+      "address": "12 Murphy Hwy",
+      "regularPrice": 2.49,
+      "midGradePrice": 2.89,
+      "premiumPrice": 3.29,
+      "distance": 0.3
+    },
+    {
+      "id": "murphy",
+      "name": "Murphy USA",
+      "address": "2257 B GA Hwy 515",
+      "regularPrice": 2.56,
+      "midGradePrice": 2.86,
+      "premiumPrice": 3.16,
+      "distance": 1.2
+    },
+    {
+      "id": "marathon",
+      "name": "Marathon",
+      "address": "5916 Murphy Hwy",
+      "regularPrice": 2.75,
+      "midGradePrice": 3.05,
+      "premiumPrice": 3.35,
+      "distance": 3.8
+    }
+  ],
+  "timestamp": 1755215628995,
+  "lastUpdated": "2025-08-14T23:53:48.995Z"
+}
